@@ -5,8 +5,8 @@ body {
   align-items: center; 
   height: 100vh;
   text-align: center;
-  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #333;
+  background-image: url("static/cool-background.png")
 }
 
 img {
@@ -15,7 +15,7 @@ img {
 
 .card .profile {
   background: #f4f4f4;
-  padding: 80px;
+  padding: 60px;
   border-radius: 4px;
   box-shadow: 8px 8px #c0bebe;
 }
