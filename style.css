@@ -50,3 +50,21 @@ a:hover {
   margin: 15px 0px;
   width:100%;
 }
+
+
+.arrow{
+  position:absolute;
+  left:1em;
+  top:1em;
+}
+
+button.form{
+  background-color: #000428;
+  color:white;
+  text-align:center;
+}
+
+
+button.form:hover{
+  background-color: #004e92;
+}
