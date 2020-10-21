@@ -13,9 +13,16 @@ img {
   height: 150px;
 }
 
-.card {
+.card .profile {
   background: #f4f4f4;
-  padding: 16px;
+  padding: 80px;
+  border-radius: 4px;
+  box-shadow: 8px 8px #c0bebe;
+}
+
+.card .contact{
+  background: #f4f4f4;
+  padding: 40px;
   border-radius: 4px;
   box-shadow: 8px 8px #c0bebe;
 }
@@ -34,7 +41,11 @@ a:hover {
   color: white;
 }
 
-.dark .card {
+.dark .card .contact{
+  background:#000428;
+}
+
+.dark .card .profile{
   background:#000428;
 }
 
@@ -67,4 +78,9 @@ button.form{
 
 button.form:hover{
   background-color: #004e92;
+}
+
+
+img {
+  height:200px;
 }
